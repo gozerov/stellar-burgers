@@ -26,15 +26,15 @@ export type TOrder = {
   ingredients: string[];
 };
 
-export type TOrdersData = {
-  orders: TOrder[];
-  total: number;
-  totalToday: number;
-};
-
 export type TUser = {
   email: string;
   name: string;
 };
 
 export type TTabMode = 'bun' | 'sauce' | 'main';
+
+export type TOrdersData = {
+	orders: TOrder[];
+	total: number;
+	totalToday: number;
+};

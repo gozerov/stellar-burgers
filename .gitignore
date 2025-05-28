@@ -36,3 +36,8 @@ node_modules
 .env
 .idea
 dist
+.env
+
+# compiled JS files from TS
+**/*.js
+**/*.js.map
