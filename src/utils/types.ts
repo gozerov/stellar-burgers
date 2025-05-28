@@ -34,7 +34,7 @@ export type TUser = {
 export type TTabMode = 'bun' | 'sauce' | 'main';
 
 export type TOrdersData = {
-	orders: TOrder[];
-	total: number;
-	totalToday: number;
+  orders: TOrder[];
+  total: number;
+  totalToday: number;
 };
